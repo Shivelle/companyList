@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Firmenverzeichnis</title>
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" />
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Custom -->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- CONTENT ============================================================================================================================== -->
+
+
+
+<!-- ===== SCROLLBAR ===== -->
+<div class="scroll-line"></div>
+
+<!-- ===== NAVBAR ===== -->
+
+<nav role="navigation" class="nav-container animated bounceInDown" id="mainNav">
+
+	<ul class="nav nav-open">
+	
+		<li class="nav-item nav-active">
+			<a href="#">home</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">about</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">produkte</a>
+		</li>
+		<li class="nav-item">
+			<a href="#">kunden</a>
+		</li>
+		<li class="navi-item">
+			<a href="#">kontakt</a>
+		</li>
+	</ul>
+
+</nav>
+
+
+
+	<section id="content-wrapper">
+
+
+		
+		<div id="header">
+			
+			<div id="headerTxt">
+				<h4>Unser</h4>
+				<h1>Kundenverzeichnis</h1>
+			</div><!-- #header-Txt -->
+			
+	  		<form id="searchForm">
+		      <input class="form-control mr-sm-2" type="text" placeholder="" id="input" autocomplete="on" onfocus="clearThis(this)">
+		      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="searchBtn" value=""><i class="fa fa-search" aria-hidden="true"></i></button>
+		    </form>		
+		    
+		</div><!-- #header -->
+		
+		
+
+
+
+		<div id="content">
+		</div><!-- #content -->
+
+	</section><!-- #content-wrapper -->
+
+<!-- THE END, MY FRIEND. =================================================================================================================== -- >
+
+<!-- SCRIPTS -->
+	<!-- JSON -->
+	<script src="companies.json"></script>
+	<!-- Custom -->
+	<script src="script.js"></script>
+</body>
+</html>
