@@ -72,6 +72,14 @@ input[type="color"]:focus {
 	left: 2em;
 }
 
+#inprint {
+	background-image: url('profi.svg');
+	background-color: red;
+	position: absolute;
+	top: 1em;
+	left: 1em;
+}
+
 h4 {
 	color: #efefef;
 	font-weight: 400;
