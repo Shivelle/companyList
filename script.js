@@ -40,7 +40,8 @@ const scrollLine 	= document.querySelector('.scroll-line');
 	   							'<div class="addressCard animated bounceInUp">' +
 		   							'<div class="companyName"><h3>' + companyName + '</h3></div>' + 
 		   								'<div class="address">' +fullAddress + '</div>' + 
-								'</div>'; 
+		   								'<a href="#" class="more"> mehr >> </a>' + 
+								  '</div>'; 
 
 	   		}
 	    }

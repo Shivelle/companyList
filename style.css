@@ -156,20 +156,22 @@ ul {
 #searchForm {
 	display: block;
 	position: absolute;
-	bottom: -2em;
+	bottom: -2.5em;
 	left: 0;
 }
 
 #input {
 	border-radius: 2%;
 	height: 1.5em;
-	width: 200px;
+	width: 250px;
+	height: 30px;
+	border: 1px solid #B9E6FD;
 }
 
 #searchBtn {
 	border-radius: 2%;
-	height: 2em;
-	width: 2em;
+	height: 30px;
+	width: 30px;
 	border: 1px solid #B9E6FD;
 	color: #fff;
 	background-color: #B9E6FD;
@@ -198,17 +200,19 @@ i {
 #content {
 	padding-top: 5em;
 	margin: 0 auto;
-	max-width: 400px;
+	max-width: 350px;
 }
 
 .address {
 	padding-top: .5em;
+	padding-right: .1em;
 	padding-left: .4em;
 }
 
 .addressCard {
 	padding-top: .5em;
-	margin-bottom: 4em;
+	padding-bottom: 1.5em;
+	margin-bottom: 3.5em;
 	margin-right: .5em;
 	margin-left: -.5em;
 	border: 1px solid lightgray;
@@ -243,6 +247,14 @@ h3 {
 
 .address>.street:first-of-type{
 	border-top: none;
+}
+
+.more {
+	text-align: right;
+	color: #00a2d2;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
 }
 
 /*===== MEDIA =====*/ 
